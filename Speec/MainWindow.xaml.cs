@@ -22,10 +22,10 @@ namespace Speec
         {
             InitializeComponent();
         }
-        //static TextBlock label;
+       
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-           // label = RecordTxtBlock;
+           
            CultureInfo culture = new CultureInfo("ru-ru");
             SpeechRecognitionEngine speech = new SpeechRecognitionEngine(culture);
             speech.SetInputToDefaultAudioDevice();
